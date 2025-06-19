@@ -16,5 +16,5 @@ model.fit(X_train, keras.utils.to_categorical(y_train, num_classes=np.max(y_trai
 ```
 Sigmoid functions:
 sigmoid(z) = 1/1+e^-z
-tanh(z) = e^z-e^-z/e^z+e^-z
+tanh(z) = (e^z-e^-z)/(e^z+e^-z)
 ```
