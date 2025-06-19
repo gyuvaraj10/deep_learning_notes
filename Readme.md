@@ -31,3 +31,6 @@ Mean Absolute Error (MAE) = Total Error/n - Cost Function
 
 **Notes**:
 1. For logistic regression we use log loss or binary cross entropy function and do not use mse due to it's non-convex nature.
+
+**Gradient Descent**
+Using this, we can find the parameters of linear equations. Example y=mx+c, we can find m and c using Gradient descent algo. Helps in training the model to find the best fit values.
