@@ -20,4 +20,4 @@ sigmoid(z) = 1/1+e^-z
 tanh(z) = (e^z-e^-z)/(e^z+e^-z)
 ```
 Mathematical Concepts:
-[mathisfun.com](mathisfun.com)
+[mathisfun.com](https://www.mathsisfun.com/)
