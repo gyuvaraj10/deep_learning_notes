@@ -22,5 +22,12 @@ tanh(z) = (e^z-e^-z)/(e^z+e^-z)
 Mathematical Concepts:
 [mathisfun.com](https://www.mathsisfun.com/)
 
-**Loss**:
-Loss is used in neural network training
+**Loss.Error**:
+Loss is used in neural network training. Available Losses  are https://www.tensorflow.org/api_docs/python/tf/keras/losses
+ 
+Absolute Error: abs(y-y^)
+Total Error: Sum(abs(y1-y1^)+.....abs(yn-yn^))
+Mean Absolute Error (MAE) = Total Error/n - Cost Function
+
+**Notes**:
+1. For logistic regression we use log loss or binary cross entropy function and do not use mse due to it's non-convex nature.
