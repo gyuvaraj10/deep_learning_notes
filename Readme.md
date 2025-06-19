@@ -12,3 +12,4 @@ model = keras.Sequential([
 model.compile(optimizer='adam', loss=keras.losses.CategoricalCrossentropy(), metrics=['accuracy'])
 model.fit(X_train, keras.utils.to_categorical(y_train, num_classes=np.max(y_train)+1), epochs=10)
 ```
+3. Leaky ReLU = max(0.1x,x), Step function, 
