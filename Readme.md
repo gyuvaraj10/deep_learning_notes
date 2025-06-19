@@ -21,3 +21,6 @@ tanh(z) = (e^z-e^-z)/(e^z+e^-z)
 ```
 Mathematical Concepts:
 [mathisfun.com](https://www.mathsisfun.com/)
+
+**Loss**:
+Loss is used in neural network training
